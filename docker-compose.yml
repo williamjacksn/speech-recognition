@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  speech-recognition:
+    build: .
+    image: speech-recognition:latest
